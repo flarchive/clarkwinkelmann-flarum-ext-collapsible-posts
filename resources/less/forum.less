@@ -1,0 +1,26 @@
+.CollapsedPostBadge {
+    display: inline-block;
+    border: 1px dotted @muted-more-color;
+    border-radius: @border-radius;
+    padding: 0 5px;
+}
+
+.CollapsedPost {
+    text-align: center;
+    padding: 20px 0;
+
+    // Just here for other extensions that expect it, but we hide it to not break our design
+    .Post-body {
+        display: none;
+    }
+}
+
+.CollapsedPostText {
+    color: @muted-color;
+    margin-bottom: 5px;
+}
+
+.CollapsedPostExplanation {
+    font-style: italic;
+    margin-bottom: 5px;
+}
